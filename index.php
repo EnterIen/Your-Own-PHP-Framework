@@ -1,7 +1,7 @@
 <?php
 	/**
-	*	  TODO 入口文件
-	*	  a>   定义常量
+	*   TODO 入口文件
+	*   a>   定义常量
 	*   b>   加载函数库
 	*   c>   启动框架
 	*   time  : 11/11/2016
@@ -14,9 +14,9 @@
 	define('APP',IMOOC . '/app');  //项目分组文件
 	define('DEBUG',true);
 	
-	/*	引入插件	*/
+	/*	引入filp/whoops插件	*/
 	include('vendor/autoload.php');
-	
+	/*	开启调试模式	  */
 	if(DEBUG){
 		$whoops = new \Whoops\Run;
 		$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
