@@ -6,6 +6,7 @@
 	*   c>   启动框架
 	*   time  : 11/11/2016
 	*   Author: entner <wangyiicloud@icloud.com>
+	*   QQ    : 1185087164@qq.com
 	*/
 	
 	
@@ -14,7 +15,7 @@
 	define('APP',IMOOC . '/app');  //项目分组文件
 	define('DEBUG',true);
 	
-	/*	引入filp/whoops插件	*/
+	/*	引入filp/whoops插件	| 请自行到项目文件下安装composer扩展(有问题联系)	*/
 	include('vendor/autoload.php');
 	/*	开启调试模式	  */
 	if(DEBUG){
